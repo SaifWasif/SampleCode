@@ -1,0 +1,20 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <RetrieveSecurityTokenResponse xmlns="http://tempuri.org/">
+            <RetrieveSecurityTokenResult
+                xmlns:a="http://schemas.datacontract.org/2004/07/Radixx.ConnectPoint.Security.Response"
+                xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+                <a:Exceptions
+                    xmlns:b="http://schemas.datacontract.org/2004/07/Radixx.ConnectPoint.Exceptions">
+                    <b:ExceptionInformation.Exception>
+                        <b:ExceptionCode>0</b:ExceptionCode>
+                        <b:ExceptionDescription>Successful Transaction</b:ExceptionDescription>
+                        <b:ExceptionSource>RetrieveSecurityToken</b:ExceptionSource>
+                        <b:ExceptionLevel>Success</b:ExceptionLevel>
+                    </b:ExceptionInformation.Exception>
+                </a:Exceptions>
+                <a:SecurityToken>d359089h6b7fn3o405g3gfe985tdi56fa5d31f6b1779</a:SecurityToken>
+            </RetrieveSecurityTokenResult>
+        </RetrieveSecurityTokenResponse>
+    </s:Body>
+</s:Envelope>

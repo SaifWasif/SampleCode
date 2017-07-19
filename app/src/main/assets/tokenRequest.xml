@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:rad="http://schemas.datacontract.org/2004/07/Radixx.ConnectPoint.Request"
+    xmlns:rad1="http://schemas.datacontract.org/2004/07/Radixx.ConnectPoint.Security.Request"
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+    <soapenv:Header />
+    <soapenv:Body>
+        <tem:RetrieveSecurityToken>
+            <!--Optional:-->
+            <tem:RetrieveSecurityTokenRequest>
+                <rad:CarrierCodes>
+                    <!--Zero or more repetitions:-->
+                    <rad:CarrierCode>
+                        <rad:AccessibleCarrierCode>RQ</rad:AccessibleCarrierCode>
+                    </rad:CarrierCode>
+                </rad:CarrierCodes>
+                <rad1:LogonID>SkyAriana_RQ_Uat</rad1:LogonID>
+                <rad1:Password>SkyAr!@n@140930</rad1:Password>
+            </tem:RetrieveSecurityTokenRequest>
+        </tem:RetrieveSecurityToken>
+    </soapenv:Body>
+</soapenv:Envelope>
+
